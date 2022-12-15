@@ -1,3 +1,261 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+# Page settings
+
+baseURL = "https://ne0re0.github.io/"
+languageCode = "en"
+title = "CV Leborgne Néo"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#49B6D0"
+    textPrimaryColor = "#111111"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Leborgne Néo"
+        tagline = "I.T. Student"
+        avatar = "Profile_Picture.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Brittany, France"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:neo.leborgne@gmail.com"
+        text = "neo.leborgne@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://github.com/Ne0re0"
+        text = "Github"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://tryhackme.com/p/Noreo"
+        text = "TryHackMe"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.root-me.org/Neoreo"
+        text = "RootMe"
+        
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React/Vue"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "MySQL / MariaDB"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+ 
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Analytical skills"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelor degree in I.T."
+        university = "University Technology Institutes of Vannes"
+        dates = "2022-2025"
+        [[params.education.list]]
+        degree = "Baccalauréat (Maths - I.T) with highest honour"
+        university = "Lycée La Fontaine des Eaux, Brittany"
+        dates = "2019-2022"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "French"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional (TOEIC being validated)"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "CyberSecurity"
+        [[params.interests.list]]
+        name = "Programming"
+
+
+    [params.summary]
+        enable = true
+        text = "I am in my first year of computer science studies at I.U.T. Vannes. I'm strongly interested in InfoSec and I'm actively learning outside the classroom, because I have to join an engineering school to become pentester. I love solving challenges and going beyond my limits. I'am able to use Python and Java, as well a manipulating databases. "
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Production Officer"
+        dates = "june 2022 - july 2022"
+        company = "SARL Kermené"
+        details = "A summer job, in which I learnt patience and obeisance. Feeding a bacon slicer all the day with loud noises. I was immersed in the work without training, so I learned things on the job. It improved my independence and maturity. I also had to make decisions to get as much work done as possible."
+        [[params.experience.list.items]]
+        details = "Patience"
+        [[params.experience.list.items]]
+        details = "Obeisance"
+        [[params.experience.list.items]]
+        details = "Autonomy"
+
+         [[params.experience.list]]
+        title = "Assembly Manager"
+        dates = "May 2022"
+        company = "SNS DMA"
+        details = "I have assembled refrigerators for large stores. This job has made me more responsible because the first screw I lose is a poorly assembled refrigerator."
+        [[params.experience.list.items]]
+        details = "Precision"
+        [[params.experience.list.items]]
+        details = "Responsibility"
+        [[params.experience.list.items]]
+        details = "Pressure resistant"
+       
+
+
+        [[params.experience.list]]
+        title = "Maintenance agent"
+        dates = "July 2021"
+        company = "Town hall of Pluduno, Brittany"
+        details = "I had to maintain the green areas. This requires me to use lawn mowers, thermal grass burner, chainsaws and brushcutters."
+        [[params.experience.list.items]]
+        details = "Careful"
+        [[params.experience.list.items]]
+        details = "Responsibility"
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Grundy Game"
+        meta = "Open Source | Java"
+        tagline = "Creation of a 1v1 board game, with the possibility to play against the AI | Source code available at https://github.com/Ne0re0/Grundy_SAE1.01"
+
+        [[params.projects.list]]
+        title = "Aristote Puzzle"
+        meta = "Python"
+        tagline = "Creation of a solo board game, with the possibility to view IA generated solutions. Solutions are generated using graphs and recursivity."
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "CTF Player"
+
+        [[params.information.list]]
+        title = "TryHackMe"
+        [[params.information.list.items]]
+        details = "In the 2% top players"
+
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/Ne0re0"
+        title = "Ne0re0"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/néo-leborgne-115079251/"
+        title = "Néo_Leborgne"
+

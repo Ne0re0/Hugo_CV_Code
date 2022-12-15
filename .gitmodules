@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/Ne0re0/Ne0re0.github.io.git
