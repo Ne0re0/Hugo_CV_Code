@@ -231,6 +231,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.information.list]]
         title = "CTF Player"
+	[[params.information.list.items]]
+        details = "4th place out of 230 players in a CTF organized by students of the ENSIBS"
+
 
         [[params.information.list]]
         title = "TryHackMe"
