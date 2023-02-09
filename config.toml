@@ -47,7 +47,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "Github"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "https://tryhackme.com/p/Noreo"
+        url = "https://tryhackme.com/p/Neoreo"
         text = "TryHackMe"
         [[params.contact.list]]
         icon = "fas fa-globe"
@@ -74,6 +74,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "MySQL / MariaDB"
         [[params.skills.list.items]]
         details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Github"
+        [[params.skills.list.items]]
+        details = "Linux/UNIX"
  
         [[params.skills.list]]
         title = "Professional"
@@ -95,7 +99,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "Bachelor degree in I.T."
+        degree = "Fist year of a bachelor degree in I.T."
         university = "University Technology Institutes of Vannes"
         dates = "2022-2025"
         [[params.education.list]]
@@ -153,11 +157,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "CyberSecurity"
         [[params.interests.list]]
         name = "Programming"
+        [[params.interests.list]]
+        name = "CTF"
 
 
     [params.summary]
         enable = true
-        text = "I am in my first year of computer science studies at I.U.T. Vannes. I'm strongly interested in InfoSec and I'm actively learning outside the classroom, because I have to join an engineering school to become pentester. I love solving challenges and going beyond my limits. I'am able to use Python and Java, as well a manipulating databases. "
+        text = "I am in my first year of computer science studies at I.U.T. Vannes. I'm strongly interested in InfoSec and I'm actively learning outside the classroom, because I have to join an engineering school to become pentester. I love solving challenges and going beyond my limits. I'am able to use Python and Java, as well as manipulating databases. "
 
 
 
@@ -166,7 +172,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.experience.list]]
         title = "Production Officer"
-        dates = "june 2022 - july 2022"
+        dates = "june 2022 - july 2022 - 5 weeks"
         company = "SARL Kermené"
         details = "A summer job, in which I learnt patience and obeisance. Feeding a bacon slicer all the day with loud noises. I was immersed in the work without training, so I learned things on the job. It improved my independence and maturity. I also had to make decisions to get as much work done as possible."
         [[params.experience.list.items]]
@@ -176,23 +182,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Autonomy"
 
-         [[params.experience.list]]
-        title = "Assembly Manager"
-        dates = "May 2022"
-        company = "SNS DMA"
-        details = "I have assembled refrigerators for large stores. This job has made me more responsible because the first screw I lose is a poorly assembled refrigerator."
-        [[params.experience.list.items]]
-        details = "Precision"
-        [[params.experience.list.items]]
-        details = "Responsibility"
-        [[params.experience.list.items]]
-        details = "Pressure resistant"
        
 
 
         [[params.experience.list]]
         title = "Maintenance agent"
-        dates = "July 2021"
+        dates = "July 2021 - 4 weeks"
         company = "Town hall of Pluduno, Brittany"
         details = "I had to maintain the green areas. This requires me to use lawn mowers, thermal grass burner, chainsaws and brushcutters."
         [[params.experience.list.items]]
@@ -232,13 +227,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
         title = "CTF Player"
 	[[params.information.list.items]]
-        details = "4th place out of 230 players in a CTF organized by students of the ENSIBS"
+        details = "4th place out of 180 players in a CTF organized by ENSIBS's students"
 
 
         [[params.information.list]]
         title = "TryHackMe"
         [[params.information.list.items]]
-        details = "In the 2% top players"
+        details = "In the 1% top players"
 
 
 
